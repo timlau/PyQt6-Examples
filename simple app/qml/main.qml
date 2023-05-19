@@ -10,7 +10,7 @@ ApplicationWindow {
     width: 700
     height: 600
     visible: true
-    title: qsTr("Shotcut Preset Generator")
+    title: qsTr("Simple Application")
 
     flags: Qt.WindowCloseButtonHint | Qt.WindowMinimizeButtonHint | Qt.CustomizeWindowHint | Qt.Dialog | Qt.WindowTitleHint
 
