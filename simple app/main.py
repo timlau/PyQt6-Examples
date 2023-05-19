@@ -1,4 +1,5 @@
-import os, sys
+import os
+import sys
 
 from PyQt6.QtGui import QGuiApplication
 from PyQt6.QtQml import QQmlApplicationEngine

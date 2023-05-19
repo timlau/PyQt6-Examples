@@ -1,9 +1,9 @@
-import os, sys
+import os
+import sys
 
 from PyQt6.QtGui import QGuiApplication
 from PyQt6.QtQml import QQmlApplicationEngine
-from PyQt6.QtCore import QtMsgType, qInstallMessageHandler
-from PyQt6.QtCore import QObject, pyqtProperty, pyqtSlot, pyqtSignal
+from PyQt6.QtCore import QObject, QtMsgType, qInstallMessageHandler
 
 
 class Backend(QObject):
