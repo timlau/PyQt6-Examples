@@ -9,8 +9,6 @@ ApplicationWindow {
     visible: true
     title: qsTr("Simple Application")
 
-    flags: Qt.WindowCloseButtonHint | Qt.WindowMinimizeButtonHint | Qt.CustomizeWindowHint | Qt.Dialog | Qt.WindowTitleHint
-
     Rectangle {
         anchors.top: parent.top
         anchors.left: parent.left
