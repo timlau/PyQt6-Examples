@@ -13,6 +13,17 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel {
+	padding:  5px 10px;
+
+}
+
+QLineInput {
+	padding:  5px 10px;
+	margin: 10px;
+}</string>
+  </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
     <widget class="QFrame" name="frame">
