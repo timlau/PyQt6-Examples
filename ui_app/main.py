@@ -4,11 +4,13 @@ import sys
 from PyQt6.QtWidgets import QApplication, QWidget
 from PyQt6 import uic
 
+BASE_DIR = Path(__file__).parent
+
 
 class MainWindow(QWidget):
     def __init__(self) -> None:
         super().__init__()
-        ui_file = Path(__file__).parent / Path("ui_app/ui/main.ui").resolve()
+        ui_file = BASE_DIR / Path("ui/main.ui")
         uic.loadUi(ui_file, self)
 
 
